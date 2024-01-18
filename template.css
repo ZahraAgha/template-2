@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header nav .navbar{
+    margin:0 auto;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .navbar .navLeft{
+    display:flex;
+    gap:40px;
+}
+
+header nav .navbar .logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    
+}
+
+header nav .navbar .navLeft .links ul{
+    list-style:none;
+    display: flex;
+    padding-top: 10px;
+    gap:10px;
+}
+header nav .navbar .navLeft .links ul li a{
+    text-decoration: none;
+    color: #212529;
+}
+header nav .navbar .navLeft .logo a{
+    text-decoration: none;
+    color: #212529;
+}
+header nav .navbar .navRight button{
+    padding: 11px 36px;
+    border-radius: 14px;
+    position: relative;
+}
+header nav .navbar .navRight button a{
+  text-decoration: none;
+  color:#212529;
+}
+header nav .navbar .navRight i{
+    color: black;
+    position: absolute;
+    right: 239px;
+    top: 42px ;
+}
+header nav .navbar .navRight .circleIcon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 39px;
+    right: 179px;
+    color: white;
+}
+header nav .navbar .navRight button:hover{
+    background-color: #212529;
+    }
+/* header nav .navbar .navRight button a:hover{
+ color:white;
+} */
+
+
+
+
+
+main .shop{
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    padding: 80px 0px;
+    background-color: #212529;
+}
+main .shop h1{
+    color: white;
+    font-size: 56px;
+}
+
+main .shop p{
+    color: #928D91;
+}
+ 
+main .container .cards{
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding-top: 70px;
+
+}
+
+main .container .cards .card{
+
+    width: 22%;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+
+main .container .cards .card .head img{
+    width: 100%;
+    height: 100%;
+     
+}
+
+main .container .cards .card .button button{
+    padding: 7px 8px;
+    border-radius: 9px;
+    
+}
+main .container .cards .card .button button a{
+text-decoration: none;
+color: #212529;
+}
+
+
+footer{
+    background-color: #212529;
+    color: white;
+    height: 125px;
+    padding-top: 35px;
+    text-align: center;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
